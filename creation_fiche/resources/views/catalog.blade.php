@@ -20,7 +20,7 @@
                             @endif
 
                             <div class="product_image">
-                                <img src="{{asset('../images/products/'.$product->image.'.png')}}" alt="{{$product->name}}">
+                                <img src="{{asset('images/products/'.$product->image.'.png')}}" alt="{{$product->name}}">
                             </div>
                             <div class="product_info">
                                 <div>

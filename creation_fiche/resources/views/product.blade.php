@@ -13,7 +13,7 @@
             <h2>[FICHE PRODUIT]</h2>
             <div class="product_div">
                 <div class="product_image">
-                    <img src="{{asset('storage/images/products/'.$product->image)}}" alt="{{$product->name}}">
+                    <img src="{{asset('images/products/'.$product->image.'.png')}}" alt="{{$product->name}}">
                 </div>
                 <div class="product_info">
                     <div>
