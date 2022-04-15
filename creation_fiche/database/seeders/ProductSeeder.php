@@ -20,7 +20,7 @@ class ProductSeeder extends Seeder
             'name' => Str::random(10),
             'description' => Str::random(20),
             'reference' => Str::random(10),
-            'image' => "[image_path]",
+            'image' => "img_product_temp",
             'quantity' => rand(0, 100),
             'category' => Str::random(10),
             'price' => rand(0, 1000) / 10,

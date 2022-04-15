@@ -29,10 +29,10 @@ Route::get('/', function () {
 Route::get('/catalogue', function () {
     $products = DB::table('products')->orderBy('name')->get();
 
-    return view('catalog', ['products' => $products]);
+    return view('catalogue', ['products' => $products]);
 });
 
-Route::get('/produit/{id}', function ($id) {
+Route::get('/product/{id}', function ($id) {
     $product = DB::table('products')->find($id);
 
     return view('product', ['product' => $product]);
