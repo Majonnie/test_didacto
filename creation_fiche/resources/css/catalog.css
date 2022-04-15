@@ -1,4 +1,4 @@
 .catalog > div
 {
-    background-color: #4f805d;
+    border: 2px var(--light_black) solid;
 }

@@ -1,0 +1,19 @@
+/*À supprimer*/
+body
+{
+    background-color: #4f805d;
+}
+
+a
+{
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+
+    transition: all 150ms ease;
+}
+
+a:hover
+{
+    color: var(--red);
+}

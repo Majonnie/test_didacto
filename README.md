@@ -10,8 +10,8 @@ Test technique pour Didacto - Création de fiches produits
 
 * Informations affichées :
   - Catalogue :
-    - image
     - name
+    - image
     - price
 
   - Fiche produit :
@@ -26,7 +26,7 @@ Test technique pour Didacto - Création de fiches produits
     - is_on_sale -> voir section suivante
     - is_visible -> voir section suivante
 
-* Gestions des états (soldés, visible) :
+* Gestions des états (soldés, visibles) :
   - Si le produit est soldé, rajouter un bandeau dans sa fiche et sur son aperçu
   dans le catalogue.
   - Si le produit n'est pas visible, ne pas l'afficer dans le catalogue

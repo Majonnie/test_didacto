@@ -1,0 +1,73 @@
+body
+{
+    background-color: var(--black);
+}
+
+a
+{
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+
+    transition: all 150ms ease;
+}
+
+a:hover
+{
+    color: var(--red);
+}
+
+.main_wrapper > h2
+{
+    color: var(--white);
+    text-align: center;
+}
+
+.catalog
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.catalog > div
+{
+    background-color: var(--black);
+    border: 3px var(--dark_black) solid;
+    box-shadow: 7px 7px var(--dark_black);
+
+    color: var(--white);
+    margin: 2%;
+}
+
+.on_sale
+{
+    text-align: center;
+    background-color: var(--red);
+    color: var(--white);
+
+    padding: 1%;
+}
+
+.product_name
+{
+    text-align: center;
+    font-family: var(--title);
+}
+
+.product_image
+{
+    width: 87%;
+    margin: auto;
+}
+
+.product_image > img
+{
+    width: 100%;
+}
+
+.product_info
+{
+    padding: 5%;
+}
