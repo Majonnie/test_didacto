@@ -38,7 +38,10 @@
                     <a class="link" href="{{url('catalogue')}}">Retour au catalogue</a>
                 </div>
             @else
-                <h2 class="not_visible">Nous sommes désolés, le produit <span>{{$product->name}}</span> n'est pas disponible pour le moment.</h2>
+                <div class="not_visible">
+                    <h2>Nous sommes désolés, le produit <span>{{$product->name}}</span> n'est pas disponible pour le moment.</h2>
+                    <h3><a href="{{url('catalogue')}}">Retour au catalogue</a></h3>
+                </div>
             @endif
         </div>
 
