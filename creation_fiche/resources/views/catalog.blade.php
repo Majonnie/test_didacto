@@ -14,6 +14,8 @@
                 Sélectionnez un produit pour accéder à toutes ses informations.</h2>
             <div class="catalog">
                 @foreach ($products as $product)
+                    {{-- On n'affiche que les produits visibles --}}
+                    @if($product->is_visible == 1)
                         <div class="product_div">
                             {{-- Si le produit est soldé, un bandeau est ajouté pour l'indiquer à l'utilisateur --}}
                             @if($product->is_on_sale == 1)
@@ -35,6 +37,7 @@
                             @php $product_id = $product->id @endphp
                             <a class="link" href="{{url('produit', ['id'=>$product_id])}}">Voir la fiche produit</a>
                         </div>
+                    @endif
                 @endforeach
             </div>
 

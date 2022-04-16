@@ -80,3 +80,14 @@ a:hover
     padding-bottom: 2%;
 }
 
+.not_visible
+{
+    text-align: center;
+    color: var(--white);
+}
+
+.not_visible > span
+{
+    font-family: var(--title);
+}
+

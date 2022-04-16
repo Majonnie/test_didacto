@@ -33,3 +33,6 @@ Test technique pour Didacto - Création de fiches produits
   ET remplacer sa fiche produit par un message comme "Nous sommes désolés,
   ce produit n'est pas disponible pour le moment."
 
+Todo list :
+- Gérer l'état is_visble 
+
