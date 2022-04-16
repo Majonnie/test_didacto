@@ -1,7 +1,6 @@
-/*À supprimer*/
 body
 {
-    background-color: #4f805d;
+    background-color: var(--black);
 }
 
 a
@@ -17,3 +16,67 @@ a:hover
 {
     color: var(--red);
 }
+
+.main_wrapper
+{
+    display: flex;
+    justify-content: center;
+
+    padding: 1.5%;
+}
+
+.product_div
+{
+    background-color: var(--black);
+    border: 3px var(--dark_black) solid;
+    box-shadow: 7px 7px var(--dark_black);
+
+    color: var(--white);
+    margin: 2%;
+
+    height: 47em;
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.on_sale
+{
+    text-align: center;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 1%;
+    border-top: 3px var(--light_red) solid;
+    box-shadow: 0px 6px var(--dark_black);
+}
+
+.product_name
+{
+    text-align: center;
+    font-family: var(--title);
+}
+
+.product_image
+{
+    width: 65%;
+    margin: auto;
+}
+
+.product_image > img
+{
+    width: 100%;
+}
+
+.product_info
+{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.link
+{
+    padding-bottom: 2%;
+}
+
