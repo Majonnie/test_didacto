@@ -23,7 +23,7 @@ class ProductSeeder extends Seeder
             'image' => "img_product_temp",
             'quantity' => rand(0, 100),
             'category' => Str::random(10),
-            'price' => rand(0, 1000) / 10,
+            'price' => rand(0, 10000) / 100,
             'is_on_sale' => rand(0, 1),
             'is_visible' => rand(0, 1)
         ]);

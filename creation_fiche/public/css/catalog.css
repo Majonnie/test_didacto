@@ -17,6 +17,11 @@ a:hover
     color: var(--red);
 }
 
+.main_wrapper
+{
+    padding: 1.5%;
+}
+
 .main_wrapper > h2
 {
     color: var(--white);
@@ -39,6 +44,13 @@ a:hover
 
     color: var(--white);
     margin: 2%;
+
+    height: 24em;
+    width: 17em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .on_sale
@@ -46,8 +58,9 @@ a:hover
     text-align: center;
     background-color: var(--red);
     color: var(--white);
-
     padding: 1%;
+    border-top: 3px var(--light_red) solid;
+    box-shadow: 0px 6px var(--dark_black);
 }
 
 .product_name
@@ -70,4 +83,9 @@ a:hover
 .product_info
 {
     padding: 5%;
+}
+
+.link
+{
+    padding-bottom: 5%;
 }
