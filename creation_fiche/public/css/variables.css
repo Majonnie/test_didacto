@@ -2,10 +2,11 @@
 
 body
 {
-    /*Variables*/
+    /*Polices*/
     --title: "Montserrat";
     --text_bloc: "Roboto";
 
+    /*Couleurs*/
     --black: #353A47;
     --dark_black: #21232AFF;
     --light_black: #979aaf;
@@ -17,6 +18,7 @@ body
     --white: #FBFEF9;
 }
 
+/*Règle générale*/
 html, body
 {
     margin: 0;
