@@ -1,24 +1,25 @@
 <?php
 
-namespace Database\Seeders;
+namespace Database\Factories;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
-class ProductSeeder extends Seeder
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
+ */
+class ProductFactory extends Factory
 {
     /**
-     * Run the database seeds.
+     * Define the model's default state.
      *
-     * @return void
+     * @return array<string, mixed>
      */
-    public function run()
+    public function definition()
     {
-        DB::table('products')->insert([
+        return [
             'name' => Str::random(10),
-            'description' => Str::random(100),
+            'description' => Str::random(20),
             'reference' => Str::random(10),
             'image' => "img_product_temp",
             'quantity' => rand(0, 100),
@@ -26,6 +27,6 @@ class ProductSeeder extends Seeder
             'price' => rand(0, 10000) / 100,
             'is_on_sale' => rand(0, 1),
             'is_visible' => rand(0, 1)
-        ]);
+        ];
     }
 }

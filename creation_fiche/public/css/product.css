@@ -34,7 +34,7 @@ a:hover
     color: var(--white);
     margin: 2%;
 
-    height: 47em;
+    height: fit-content;
     width: 75%;
 
     display: flex;
