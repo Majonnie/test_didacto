@@ -10,7 +10,6 @@
 
     <body>
         <div class="main_wrapper">
-            {{-- <h2>[FICHE PRODUIT]</h2> --}}
             {{-- On n'affiche la fiche du produit que s'il est visible --}}
             @if($product->is_visible == 1)
                 <div class="product_div">
@@ -19,6 +18,7 @@
                         <h2 class="on_sale">EN SOLDE !</h2>
                     @endif
 
+                    {{-- Affichage du nom et de l'image du produit --}}
                     <div class="base">
                         <h2 class="product_name"><b>{{$product->name}}</b></h2>
 
@@ -27,6 +27,7 @@
                         </div>
                     </div>
 
+                    {{-- Affichage des autres informations du produit --}}
                     <div class="product_info">
                         <p>{{$product->price}} €</p>
                         <p>{{$product->description}}</p>
@@ -35,8 +36,10 @@
                         <p>Référence : {{$product->reference}}</p>
                     </div>
 
+                    {{-- Lien de redirection vers le catalogue --}}
                     <a class="link" href="{{url('catalogue')}}">Retour au catalogue</a>
                 </div>
+            {{-- Si le produit n'est pas visible, on affiche un message spécifique à la place de sa fiche --}}
             @else
                 <div class="not_visible">
                     <h2>Nous sommes désolés, le produit <span>{{$product->name}}</span> n'est pas disponible pour le moment.</h2>
