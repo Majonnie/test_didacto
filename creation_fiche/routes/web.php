@@ -21,12 +21,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 //Site
-Route::get('/catalogue', function () {
+Route::get('/', function () {
     $products = DB::table('products')->orderBy('name')->get();
 
     return view('catalog', ['products' => $products]);
