@@ -3,6 +3,7 @@ body
     background-color: var(--black);
 }
 
+/*Lien(s)*/
 a
 {
     color: var(--white);
@@ -25,6 +26,7 @@ a:hover
     padding: 1.5%;
 }
 
+/*Fiche produit*/
 .product_div
 {
     background-color: var(--black);
@@ -42,6 +44,7 @@ a:hover
     justify-content: space-between;
 }
 
+/*Bandeau produit soldé*/
 .on_sale
 {
     text-align: center;
@@ -69,17 +72,20 @@ a:hover
     width: 100%;
 }
 
+/*Autres informations sur le produit*/
 .product_info
 {
     padding-left: 2%;
     padding-right: 2%;
 }
 
+/*Lien de redirection vers le catalogue*/
 .link
 {
     padding-bottom: 2%;
 }
 
+/*Style d'une fiche d'un produit non visible*/
 .not_visible
 {
     text-align: center;

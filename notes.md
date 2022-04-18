@@ -25,3 +25,5 @@
 
 Todo list :
 - Gérer l'état is_visble -> fait
+
+- Ajouter images README ?

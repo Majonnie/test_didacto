@@ -1,7 +1,7 @@
 # test_didacto
 Test technique pour Didacto - Création de fiches produits
-
-...
+<br>
+<br>
 
 * Lancement du projet (Linux / Mac) :
   - `cd creation_fiche`
