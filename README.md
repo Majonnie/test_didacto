@@ -3,6 +3,13 @@ Test technique pour Didacto - Création de fiches produits
 <br>
 <br>
 
+* Dépendances :
+  - Pour que le projet fonctionne correctement, vous aurez besoin d'installer différents packages :
+    - composer, afin d'ensuite installer laravel ;
+    - laravel (consultez cette page si besoin pour pouvoir l'installer ;
+    à l'aide de composer : https://laravel.com/docs/9.x/installation#installation-via-composer)
+    - mysql, en tant que SGBD de ce projet.
+
 * Lancement du projet (Linux / Mac) :
   - `cd creation_fiche`
   - `php artisan serve`
