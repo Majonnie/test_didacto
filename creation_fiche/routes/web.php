@@ -24,12 +24,14 @@ use Illuminate\Support\Facades\Route;
 
 //Site
 Route::get('/', function () {
+    //Récupération des produitst
     $products = DB::table('products')->orderBy('name')->get();
 
     return view('catalog', ['products' => $products]);
 });
 
 Route::get('/produit/{id}', function ($id) {
+    //Récupération du produit correspondant à l'id
     $product = DB::table('products')->find($id);
 
     return view('product', ['product' => $product]);

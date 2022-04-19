@@ -37,13 +37,13 @@
                     </div>
 
                     {{-- Lien de redirection vers le catalogue --}}
-                    <a class="link" href="{{url('catalogue')}}">Retour au catalogue</a>
+                    <a class="link" href="{{url('/')}}">Retour au catalogue</a>
                 </div>
             {{-- Si le produit n'est pas visible, on affiche un message spécifique à la place de sa fiche --}}
             @else
                 <div class="not_visible">
                     <h2>Nous sommes désolés, le produit <span>{{$product->name}}</span> n'est pas disponible pour le moment.</h2>
-                    <h3><a href="{{url('catalogue')}}">Retour au catalogue</a></h3>
+                    <h3><a href="{{url('/')}}">Retour au catalogue</a></h3>
                 </div>
             @endif
         </div>

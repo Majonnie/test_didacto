@@ -16,6 +16,9 @@ Test technique pour Didacto - Création de fiches produits
   - générer des produits de test grâce aux seeder : `php artisan db:seed`<br>
     (--> noms et descriptions complètement aléatoires, image par défaut rouge,
     états visible/soldé aléatoire)
+  - modifier la génération des produits : modifier le ProductSeeder<br>
+    (--> pour l'image : remplacer le nom de l'image "img_product_temp" dans le
+    ProductSeeder par le nom d'une image ajoutée au dossier public/images/products)
   - supprimer des produits : uniquement faisable en supprimant directement
   des produits via mySQL (`DELETE FROM products;` ...)
 

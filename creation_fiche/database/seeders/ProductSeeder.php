@@ -20,6 +20,7 @@ class ProductSeeder extends Seeder
             'name' => Str::random(10),
             'description' => Str::random(100),
             'reference' => Str::random(10),
+            //Image par défaut : "img_product_temp" (image rouge)
             'image' => "img_product_temp",
             'quantity' => rand(0, 100),
             'category' => Str::random(10),
