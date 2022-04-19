@@ -72,6 +72,7 @@ a:hover
 {
     text-align: center;
     font-family: var(--title);
+    word-break: break-word;
 }
 
 .product_image
@@ -88,6 +89,7 @@ a:hover
 .product_info
 {
     padding: 5%;
+    word-break: break-word;
 }
 
 /*Liens de redirection vers la fiche d'un produit*/

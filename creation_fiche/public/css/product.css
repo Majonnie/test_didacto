@@ -65,6 +65,7 @@ a:hover
 {
     width: 65%;
     margin: auto;
+    word-break: break-word;
 }
 
 .product_image > img
@@ -77,6 +78,7 @@ a:hover
 {
     padding-left: 2%;
     padding-right: 2%;
+    word-break: break-word;
 }
 
 /*Lien de redirection vers le catalogue*/
