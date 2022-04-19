@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Catalogue</title>
-        <link rel="icon" type="image/gif/png" href="storage/images/logos/Burger.png">
+        <link rel="icon" type="image/gif/png" href="{{URL::asset('images/logos/shopping_bag.png')}}">
         <link rel="stylesheet" href="{{URL::asset('css/variables.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/product.css')}}">
     </head>
